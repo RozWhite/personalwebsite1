@@ -1,0 +1,405 @@
+/*  FileName: HomePage 
+    
+    Date: 20/06/2022 */
+
+/*  Header Style
+
+ */
+ body {
+	margin: 0;
+
+	background-color: #f6f6f6;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+
+/* title style */
+
+.first {
+	margin: 0px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	padding: 4% 10% 0%;
+}
+
+
+#title {
+	background-color: #c8f1f1;
+	margin: 0;
+}
+
+h1 {
+	font-size: 5.625rem;
+	font-family: 'Sacramento', cursive;
+	color: #4949ff;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5rem;
+	color: #4949ff;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #4949ff;
+}
+
+p {
+	line-height: 2;
+	font-size: 0.98rem;
+}
+
+.mountain {
+	margin-left: 40px;
+
+
+}
+
+
+
+.btn {
+	background:#4444f8;
+	background-image: -webkit-linear-gradient(top, #4444f8; #11999e);
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 8px;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-size: 20px;
+	margin-top: 25px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+
+}
+
+.btn:hover {
+	background:#2F1c53;
+	background-image: -webkit-linear-gradient(top, #1f1fff,#A46DFF);
+	background-image: -moz-linear-gradient(top, #1f1fff, #A46DFF);
+	background-image: -ms-linear-gradient(top, #1f1fff, #A46DFF);
+	background-image: -o-linear-gradient(top, #1f1fff, #A46DFF);
+	background-image: linear-gradient(to bottom,#1f1fff,#A46DFF);
+	text-decoration: none;
+}
+
+
+.white-section {
+	background-color: #f6f6f6;
+	padding: 0 0 0 0;
+	margin: 100px 0;
+}
+
+
+.profile {
+	margin-top: 0%;
+}
+
+.intro {
+	width: 58.0%;
+	margin: auto;
+}
+
+.profile-img {
+	width: 40%;
+	margin-bottom: 30px;
+}
+
+
+/* Skills Section */
+.second {
+	margin-top: 60px;
+	margin-bottom: 50px;
+
+}
+/*background-color: #9e9eba;*/
+#testimonials {
+	background-color:  #c2d5ec;
+	
+}
+
+.testimonial-text {
+	text-align: center;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+
+.AI-img {
+	width: 30%;
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 30px;
+
+}
+.web1-img {
+	width: 28%;
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 30px;
+
+}
+.skill-img{
+	width: 30%;
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
+.web-img {
+	width: 28%;
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.skill-row {
+	width: 80%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+}
+
+#skills {
+	background-color: #c2d5ec;
+	padding-bottom: 1%;
+	margin-bottom: 0%;
+
+
+}
+
+.skill {
+	font-family: 'Montserrat', sans-serif;
+	padding: 15px;
+	font-size: 2.5rem;
+	color: #fff;
+	font-weight: normal;
+}
+
+#testimonial-carousel {
+	margin: 0 100px 0 130px;
+}
+
+.skill_1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-weight: normal;
+}
+
+
+/* Educations Section */
+
+#education {
+	padding: 100px;
+	margin: 0 auto 0 auto;
+	text-align: left;
+
+}
+
+#features {
+	position: relative;
+}
+
+.feature-title {
+
+}
+
+.feature-box {
+	padding: 4.5%;
+}
+
+.icon {
+	color: #4949ff;
+	margin-bottom: 1rem;
+}
+
+.icon:hover {
+	color: #1f1fff;
+}
+
+
+/* Contact Page: Style inputs with type="text"   */
+input[type=text],
+select,
+textarea {
+	width: 94%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	resize: vertical
+}
+
+/* Style the submit button with a specific background color etc
+input[type=submit] {
+	background-color: #2461e6ee;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+} */
+
+/* When moving the mouse over the submit button, add a darker blue color 
+input[type=submit]:hover {
+	background-color: #0d43b6ee;
+}*/
+
+/*  background color and some padding around the form */
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 10px;
+	
+}
+
+
+/*Navbar */
+.nav-item {
+	font: size 10px;
+}
+
+.navbar-brand{
+	background-color: #d4e0e6;
+}
+
+
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+	
+	background-color: #d4e0e6;
+
+}
+.navbar-nav  li a:hover {
+    color: #1f1fff !important;
+}
+
+#brand{
+	color: #1f1fff;
+}
+
+.nav-link {
+	font-size: 1.0rem;
+	font-family: "Montserrat-Light";
+
+}
+
+#footer {
+	bottom: 0;
+	color: #fff;
+	background:  linear-gradient(45deg,#1f1fff,#4949ff, #adcbf1);
+}
+
+/*  linear-gradient(45deg,#2F1c53,#A46DFF,#f6d1fd); 
+background-color: #e2e2ec;
+
+*/
+
+/* Languages*/
+
+.languagebox{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.languagebox p{
+   
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    padding: 0;
+  
+    letter-spacing: 1px;
+}
+
+.languagebox p:nth-child(2){
+    float: right;
+    position: relative;
+    top: -25px;
+}
+
+.language{
+    background:  #adcbf1;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid  #4949ff;
+    border-radius: 5px;
+}
+
+.language_level{
+    background:  #4949ff;
+    width: 100%;
+    height: 10px;
+}
+.socialMedia{
+	margin-right: 1.5em;padding-left: 5%
+}
+
+/* Contact */
+
+#contact {
+
+	
+	margin: 0 auto 0 auto;
+	text-align: left;
+
+}
+.submit{
+	margin-top: 0;
+	width: 150px;
+	height: 40px;
+	padding: 0;
+
+}
+
+
+.gradient-brand-color {
+    background-image: -webkit-linear-gradient(0deg, #F2F2F2 0%, #E6E6E6 100%);
+    background-image: -ms-linear-gradient(0deg, #F2F2F2 0%, #E6E6E6 100%);
+
+}
+.contact-info__wrapper {
+    overflow: hidden;
+    border-radius: .625rem .625rem 0 0
+}
+
+@media (min-width: 1024px) {
+    .contact-info__wrapper {
+        border-radius: 0 .625rem .625rem 0;
+    }
+}
+.contact-info__list span.position-absolute {
+    left: 0
+}
+.z-index-101 {
+    z-index: 101;
+}
+.list-style--none {
+    list-style: none;
+}
+.contact__wrapper {
+    background-color: #fff;
+    border-radius: 0 0 .625rem .625rem
+}
+
+@media (min-width: 1024px) {
+    .contact__wrapper {
+        border-radius: .625rem 0 .625rem .625rem
+    }
+}
+@media (min-width: 1024px) {
+    .contact-form__wrapper {
+        padding: 5rem !important
+    }
+}
+.shadow-lg, .shadow-lg--on-hover:hover {
+    box-shadow: 0 1rem 3rem rgba(132,138,163,0.1) !important;
+}
