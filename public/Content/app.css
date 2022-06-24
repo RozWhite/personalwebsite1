@@ -250,13 +250,12 @@ textarea {
 /*Navbar */
 .nav-item {
 	font: size 10px;
+	
 }
 
 .navbar-brand{
 	background-color: #d4e0e6;
 }
-
-
 
 .navbar {
     padding-top: 15px;
@@ -265,7 +264,6 @@ textarea {
     border-radius: 0;
     margin-bottom: 0;
     font-size: 12px;
-	
 	background-color: #d4e0e6;
 
 }
