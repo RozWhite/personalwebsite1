@@ -134,11 +134,11 @@ p {
 	margin-bottom: 30px;
 
 }
-.web1-img {
+.deploy-img {
 	width: 28%;
 	float: left;
 	margin-right: 40px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 
 }
 .skill-img{
@@ -146,12 +146,6 @@ p {
 	float: right;
 	margin-left: 30px;
 	margin-bottom: 40px;
-}
-.web-img {
-	width: 28%;
-	float: right;
-	margin-left: 30px;
-	margin-bottom: 30px;
 }
 
 .skill-row {
