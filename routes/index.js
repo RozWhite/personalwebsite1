@@ -21,7 +21,7 @@ router.get('/cv', function(req, res, next) {
 
 /* GET Contact Me .*/
 router.get('/contact', function(req, res, next) {
-  res.render('contact', { title: 'Contact Me'});
+  res.render('contact', { title: 'Contact'});
 }); 
 
 /*router.post("/contact", (req, res, next) => {
