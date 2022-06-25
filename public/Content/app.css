@@ -104,7 +104,7 @@ p {
 /* Skills Section */
 
 .second {
-	margin-top: 60px;
+	margin-top: 65px;
 	margin-bottom: 50px;
 }
 
@@ -306,11 +306,11 @@ textarea {
 	bottom: 0;
 	color: #fff;
 	background:  linear-gradient(45deg,#1f1fff,#4949ff, #adcbf1);
-	padding-top:6px !important; padding-bottom:6px !important;
+	padding-top:8px !important; padding-bottom:8px !important;
 }
 
 .custom-navbar{
-	padding-top:7px !important; padding-bottom:7px !important;
+	padding-top:8px !important; padding-bottom:8px !important;
 }
 
 /* Languages*/
