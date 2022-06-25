@@ -223,11 +223,12 @@ p {
 		font-size: 1.8rem;
 	}
 	h2{
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 	}
 	#hello{
-		margin-top: 4;
-		margin-bottom: 10;
+		
+		margin-top: 50px;
+		margin-bottom: 20;
 	}
 }
 
