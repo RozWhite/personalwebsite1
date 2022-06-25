@@ -110,22 +110,20 @@ p {
 
 /* Skills Section */
 
-
 .second {
 	margin-top: 60px;
 	margin-bottom: 50px;
-
 }
+
 #skills {
 	background-color: #c2d5ec;
 	padding-bottom: 1%;
-	margin-bottom: 0%;
-	
+	margin-bottom: 0;
 }
 
 .skill {
 	font-family: 'Montserrat', sans-serif;
-   padding:20px 0 0 0;
+    padding:20px 0 0 0;
 	font-size: 2.5rem;
 	color: #fff;
 	font-weight: normal;
@@ -133,15 +131,15 @@ p {
 
 #testimonials {
 	background-color:  #c2d5ec;
-	float: left;
-	
+	margin-top: -1px;
 }
+
+
 
 .testimonial-text {
 	text-align: center;
 	font-size: 3rem;
 	line-height: 1.5;
-	float: left;
 }
 
 
@@ -162,25 +160,20 @@ p {
 
 }
 .skill-img{
-	width: 30%;
+	width: 28%;
 	float: right;
 	margin-left: 30px;
 	margin-bottom: 40px;
-	margin-right: 2px;
 }
+
 
 .skill-row {
 	width: 80%;
 	margin: 100px auto 100px auto;
 	text-align: left;
-	float: left;
+
 }
 
-
-#testimonial-carousel {
-	margin: 0 100px 0 100px;	
-	
-}
 
 .skill_1 {
 	font-family: 'Montserrat', sans-serif;
@@ -188,19 +181,81 @@ p {
 	font-weight: normal;
 
 }
-.skill_2 {
-	font-family: 'Montserrat', sans-serif;
-	color: #fff;
-	font-weight: normal;
-	padding-left: 50px;
-	padding-right: 50px;
+
+
+
+#testimonial-carousel {
+	margin: 0 100px 0 100px;	
 	
 }
-.skill_text{
-	padding-left: 50px;
-	padding-right: 50px;
-	
+ 
+
+
+/*
+.carousel-control-prev{
+	margin: 0 30px 0 20;
+
 }
+.carousel-control-next{
+	margin: 0 50px 0 0px;
+
+}*/
+
+@media only screen and (max-width: 768px) {
+	.second {
+		margin: 0;
+	}
+
+	.skill {
+		text-align: left;
+		font-size: 1.8rem;
+		margin-left: 50px;
+	}
+	.testimonial-text {
+		text-align: left;
+		font-size: 1.5rem;
+		line-height: 1.5;
+		
+	}
+
+
+	.skill_1 {
+		font-size: 1.5rem;
+		padding: 0 0 0 38px;
+	}
+	.AI-img {
+		display: none;
+	}
+
+	.skill-img {
+		display: none;
+    }
+	.deploy-img {
+		display: none;
+
+	}
+	#testimonial-carousel {
+		margin: 0 20px 0 5px;	
+		
+	}
+	.skill_text{
+		padding: 0 0 0 38px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Educations Section */
 
