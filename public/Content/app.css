@@ -115,12 +115,25 @@ p {
 	margin-top: 60px;
 	margin-bottom: 50px;
 
-	float: left;
+}
+#skills {
+	background-color: #c2d5ec;
+	padding-bottom: 1%;
+	margin-bottom: 0%;
+	
+}
 
+.skill {
+	font-family: 'Montserrat', sans-serif;
+
+	font-size: 2.5rem;
+	color: #fff;
+	font-weight: normal;
 }
 
 #testimonials {
 	background-color:  #c2d5ec;
+	float: left;
 	
 }
 
@@ -160,32 +173,20 @@ p {
 	width: 80%;
 	margin: 100px auto 100px auto;
 	text-align: left;
+	float: left;
 }
 
-#skills {
-	background-color: #c2d5ec;
-	padding-bottom: 1%;
-	margin-bottom: 0%;
-
-
-}
-
-.skill {
-	font-family: 'Montserrat', sans-serif;
-	padding: 15px;
-	font-size: 2.5rem;
-	color: #fff;
-	font-weight: normal;
-}
 
 #testimonial-carousel {
 	margin: 0 100px 0 100px;	
+	float: left;
 }
 
 .skill_1 {
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	font-weight: normal;
+	float: left;
 }
 .skill_2 {
 	font-family: 'Montserrat', sans-serif;
@@ -193,10 +194,12 @@ p {
 	font-weight: normal;
 	padding-left: 50px;
 	padding-right: 50px;
+	float: left;
 }
 .skill_text{
 	padding-left: 50px;
 	padding-right: 50px;
+	float: left;
 }
 
 /* Educations Section */
