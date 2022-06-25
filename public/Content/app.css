@@ -1,10 +1,8 @@
 /*  FileName: HomePage 
-    
     Date: 20/06/2022 */
 
-/*  Header Style
-
- */
+/*  Header Style*/
+ 
  body {
 	margin: 0;
 
@@ -54,11 +52,7 @@ p {
 
 .mountain {
 	margin-left: 40px;
-
-
 }
-
-
 
 .btn {
 	background:#4444f8;
@@ -72,7 +66,6 @@ p {
 	margin-top: 25px;
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
-
 }
 
 .btn:hover {
@@ -134,14 +127,11 @@ p {
 	margin-top: -1px;
 }
 
-
-
 .testimonial-text {
 	text-align: center;
 	font-size: 3rem;
 	line-height: 1.5;
 }
-
 
 .AI-img {
 	width: 28%;
@@ -149,7 +139,6 @@ p {
 	margin-right: 40px;
 	margin-bottom: 30px;
 	margin-left: 30px;
-
 }
 .deploy-img {
 	width: 28%;
@@ -157,7 +146,6 @@ p {
 	margin-right: 40px;
 	margin-bottom: 40px;
 	margin-left: 30px;
-
 }
 .skill-img{
 	width: 28%;
@@ -166,41 +154,22 @@ p {
 	margin-bottom: 40px;
 }
 
-
 .skill-row {
 	width: 80%;
 	margin: 100px auto 100px auto;
 	text-align: left;
-
 }
-
 
 .skill_1 {
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	font-weight: normal;
-
 }
-
-
 
 #testimonial-carousel {
 	margin: 0 100px 0 100px;	
-	
 }
  
-
-
-/*
-.carousel-control-prev{
-	margin: 0 30px 0 20;
-
-}
-.carousel-control-next{
-	margin: 0 50px 0 0px;
-
-}*/
-
 @media only screen and (max-width: 768px) {
 	.second {
 		margin: 0;
@@ -241,26 +210,16 @@ p {
 	.skill_text{
 		padding: 0 0 0 38px;
 	}
+	h2{
+		font-size: 1.8rem;
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Educations Section */
 
 #education {
-	padding: 100px;
+	padding: 95px;
 	margin: 0 auto 0 auto;
 	text-align: left;
 
@@ -284,7 +243,6 @@ p {
 	color: #1f1fff;
 }
 
-
 /* Contact Page: Style inputs with type="text"   */
 input[type=text],
 select,
@@ -299,14 +257,11 @@ textarea {
 	resize: vertical
 }
 
-
-
 /*  background color and some padding around the form */
 .container {
 	border-radius: 5px;
 	background-color: #f2f2f2;
 	padding: 10px;
-	
 }
 
 
@@ -318,8 +273,7 @@ textarea {
 }
 
 .nav-item {
-	font: size 10px;
-	
+	font: size 10px;	
 }
 
 .navbar-brand{
@@ -334,7 +288,6 @@ textarea {
     margin-bottom: 0;
     font-size: 12px;
 	background-color: #d4e0e6;
-
 }
 .navbar-nav  li a:hover {
     color: #1f1fff !important;
@@ -347,18 +300,18 @@ textarea {
 .nav-link {
 	font-size: 1.0rem;
 	font-family: "Montserrat-Light";
-
 }
 
 #footer {
 	bottom: 0;
 	color: #fff;
 	background:  linear-gradient(45deg,#1f1fff,#4949ff, #adcbf1);
+	padding-top:6px !important; padding-bottom:6px !important;
 }
 
-
-
-*/
+.custom-navbar{
+	padding-top:7px !important; padding-bottom:7px !important;
+}
 
 /* Languages*/
 
@@ -373,7 +326,6 @@ textarea {
     text-transform: uppercase;
     margin: 0 0 10px;
     padding: 0;
-  
     letter-spacing: 1px;
 }
 
@@ -403,25 +355,18 @@ textarea {
 /* Contact */
 
 #contact {
-
-	
 	margin: 0 auto 0 auto;
 	text-align: left;
-
 }
 .submit{
 	margin-top: 0;
 	width: 150px;
 	height: 40px;
 	padding: 0;
-
 }
-
-
 .gradient-brand-color {
     background-image: -webkit-linear-gradient(0deg, #F2F2F2 0%, #E6E6E6 100%);
     background-image: -ms-linear-gradient(0deg, #F2F2F2 0%, #E6E6E6 100%);
-
 }
 .contact-info__wrapper {
     overflow: hidden;
