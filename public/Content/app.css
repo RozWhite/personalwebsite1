@@ -171,10 +171,18 @@ p {
 }
  
 @media only screen and (max-width: 768px) {
-	.second {
-		margin: 0;
+	.second{
+		margin-top: 0;
+		margin-bottom: 0;
+		background-color:  #c2d5ec;
 	}
-
+	.colored-section{
+		background-color:  #c2d5ec;
+	}
+	#testimonials {
+		background-color:  #c2d5ec;
+		margin-top: -5px;
+	}
 	.skill {
 		text-align: left;
 		font-size: 1.8rem;
@@ -182,15 +190,14 @@ p {
 	}
 	.testimonial-text {
 		text-align: left;
-		font-size: 1.5rem;
+		font-size: 1.4rem;
 		line-height: 1.5;
-		
 	}
-
 
 	.skill_1 {
 		font-size: 1.5rem;
 		padding: 0 0 0 38px;
+	
 	}
 	.AI-img {
 		display: none;
@@ -209,6 +216,8 @@ p {
 	}
 	.skill_text{
 		padding: 0 0 0 38px;
+		font-size: 0.99rem;
+		padding-bottom: 60px;
 	}
 	h2{
 		font-size: 1.8rem;
