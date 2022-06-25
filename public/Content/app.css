@@ -109,9 +109,13 @@ p {
 
 
 /* Skills Section */
+
+
 .second {
 	margin-top: 60px;
 	margin-bottom: 50px;
+
+	float: left;
 
 }
 
@@ -124,6 +128,7 @@ p {
 	text-align: center;
 	font-size: 3rem;
 	line-height: 1.5;
+	float: left;
 }
 
 
@@ -174,7 +179,7 @@ p {
 }
 
 #testimonial-carousel {
-	margin: 0 100px 0 100px;
+	margin: 0 100px 0 100px;	
 }
 
 .skill_1 {
