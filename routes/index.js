@@ -14,7 +14,7 @@ router.get('/skills', function(req, res, next) {
 
 /* GET Projects page . */
 router.get('/project', function(req, res, next) {
-  res.render('Project', { title: 'Project'});
+  res.render('project', { title: 'Project'});
 });
 
 
