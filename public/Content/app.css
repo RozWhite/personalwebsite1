@@ -203,13 +203,9 @@ p {
 		display: none;
 	}
 
-	.skill-img {
-		display: none;
-    }
-	.deploy-img {
-		display: none;
-
-	}
+	.skill-img {display: none;}
+	.deploy-img {display: none;}
+	.right-column{	display: none;}
 	#testimonial-carousel {
 		margin: 0 20px 0 5px;	
 		
@@ -422,3 +418,60 @@ textarea {
 .shadow-lg, .shadow-lg--on-hover:hover {
     box-shadow: 0 1rem 3rem rgba(132,138,163,0.1) !important;
 }
+
+
+
+
+
+
+/* Project */
+#project{
+margin-top: 70px;
+
+}
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	
+  }
+  .left-column{
+	text-align: left;
+	padding: 50px 70px 15px 100px;
+	background-image: -webkit-linear-gradient(0deg, #F2F2F2 0%, #E6E6E6 100%);
+    background-image: -ms-linear-gradient(0deg, #F2F2F2 0%, #E6E6E6 100%);
+  }
+  .right-column{
+	background-color:  #d9e4f3;
+
+  }
+
+
+.project h5{
+	text-decoration: underline;
+
+}
+
+
+
+.project-img{
+padding: 70px 50px 0px 50px;
+	width: 95%;
+    height: 85%; 
+    object-fit: contain;
+
+}
+
+
+.project-row{
+margin-top: 70px;
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	}
+  }
+  .href{
+	margin-bottom: 10px;
+  }

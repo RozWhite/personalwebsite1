@@ -17,6 +17,10 @@
 			<li class="nav-item"><% } %> <a class="nav-link" href="/skills">
 					<i class="fas fa-lg fa-asterisk"></i> Skills</a>
 
+				</li><% if (title == "Projectt") { %> <li class="nav-item active"><% } else  { %>
+					<li class="nav-item" ><% } %> <a class= "nav-link" href="/project">
+						<i class="fas fa-lg fa-tasks"></i> Projects</a></li>
+
 			</li><% if (title == "CV") { %> <li class="nav-item active"><% } else  { %>
 			<li class="nav-item"><% } %> <a class="nav-link" href="/cv">
 					<i class="fas fa-lg fallg fa-file"></i><b> C.V. </b></a>

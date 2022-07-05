@@ -1,0 +1,135 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/mainNav.ejs %>
+
+
+
+
+
+<!-- Project -->
+<section class="white-section" id="project">
+
+  <div class="row ">
+    <div class="column project left-column">
+      <h3>Age and Gender Predictor App </h3><br>
+      <h5 class="project1">About this project</h5>
+      <p>This project is about creating a deep learning (DL) end to end flask web app for predciting age and gender. 
+        I used deep convolutional neural networks (CNN) which is mainly used for applications in image and 
+        speech recognition to build my model on UTKFace dataset. And finally I deployed the model with Flask on localhost and 
+        Heroku platform (PaaS).</p>
+        <p>UTKFace dataset is a large-scale face dataset with long age span (range from 0 to 116 years old). 
+          The dataset consists of over 20,000 face images with annotations of age, gender, and ethnicity. 
+          To overcome the challenge of memory limitations, I resized, normalized and descaled the images 
+          to single-channel images.</p>
+          <a class=""  href="https://agegenderpredictor.herokuapp.com/" target="_blank" rel="noopener" title="Go to Heroku"> 
+            Try the Age and Gender Predictor App here</a></p>
+        <a class="href"  href="https://github.com/RozWhite/CNN_AgeGenderPredictor_Deployment" target="_blank" rel="noopener" title="Go to Github"> 
+          View the source code of the project</a><br>
+  
+          
+    </div>
+    <div class="column right-column">
+<img class="project-img" src="/Assets/images/cnn.png" alt="project-img">
+    </div>
+  </div>
+  </div>
+
+  
+  <div class="row project-row">
+    <div class="column project left-column">
+      <h3>AWS Translator App </h3><br>
+      <h5 class="project1">About this project</h5>
+      <p>This project is about building a translator application with AWS Lambda, Chalice and Boto3. 
+        Chalice is a framework for writing serverless apps in python. Chalice enables the creation and maintenance of 
+        application backends and their deployment on AWS using Amazon API Gateway and AWS Lambda. AWS Lamda is a serverless
+         compute service for run and execute code and only pay per execution. 
+         Boto3 is an AWS Sdk for Python for accessing AWS services. </p>
+         <p>The process for the image translator will be:
+          An image is read from the S3 bucket via a lambda function. 
+          In the next step, this image is passed to the Rekognition service via calling rekognition API. 
+          In response, rekognition API returns labels. A function reads the labels and calls Amazon Translate. 
+          To speak translated text, Amazon Polly is used with Amazon Translate.
+</p><br>
+
+<a class="href"  href="https://github.com/RozWhite/AWS_Translator_Chalice_Lambda_Boto3" target="_blank" rel="noopener" title="Go to Github"> 
+  View the source code of the project</a><br>
+    </div>
+    <div class="column right-column">
+<img class="project-img" src="/Assets/images/aws.png" alt="project-img">
+    </div>
+  </div>
+  </div>
+
+
+
+  <div class="row project-row">
+    <div class="column project left-column">
+      <h3>Comment Sentiment Analyzer App</h3><br>
+      <h5 class="project1">About this project</h5>
+      <p>In this NLP project I created a machine learning end to end flask web app for sentiment analysis with VADER. And finally I deployed my App on Heroku. <br>
+        Sentiment is defined as the feeling or emotion expressed by the user in the given corpus.
+        VADER (Valence Aware Dictionary for Sentiment Reasoning) is a lexicon and rule-based sentiment analysis tool that detects polarity within our text.
+        This method will give us scores of the following categories: 1. Positive 2. Negative 3. Neutral 4. Compound. <br>
+      </p><br>
+
+        <a class=""  href="https://nlpsentiment.herokuapp.com/" target="_blank" rel="noopener" title="Go to Heroku"> 
+          Try the Comment Sentiment Analyzer App here</a></p>
+          <a class=""  href="https://github.com/RozWhite/NLP_Sentiment_Deployment-Heroku-" target="_blank" rel="noopener" title="Go to Github"> 
+            View the source code of the project</a>
+    </div>
+    <div class="column right-column">
+<img class="project-img" src="/Assets/images/sentiment.jpg" alt="project-img">
+    </div>
+  </div>
+  </div>
+
+  <div class="row project-row">
+    <div class="column project left-column">
+      <h3>Speech Recognition with Hugging's Face Wav2Vec2</h3><br>
+      <h5 class="project1">About this project</h5>
+      <p>This project is about detecting user voice from microphone and converting the 
+        audio to text with Hugging Face's Transformers. The Hugging Face transformers package provide APIs to easily download and train 
+        state-of-the-art pretrained models.
+        Wav2Vec2 is a popular pre-trained  model that uses self-supervised learning for speech recognition. 
+        I used the "patrickvonplaten/wav2vec2-base-100h-with-lm" transformer model in this project, which contains the same 
+        Wav2Vec2 checkpoint but has an additional 4-gram language model for boosting Wav2Vec2 with n-grams in transformers.
+        For recognize speech input from the microphone I used SpeechRecognition library.
+        
+
+    </p><br>
+
+    <a class=""  href="https://github.com/RozWhite/Speech-Recognition-with-Hugging-s-Face-Wav2Vec2" target="_blank" rel="noopener" title="Go to Github"> 
+      View the source code of the project</a>
+    </div>
+    <div class="column right-column">
+<img class="project-img" src="/Assets/images/speech.png" alt="project-img">
+    </div>
+  </div>
+  </div>
+</section>
+
+  <div class="row project-row">
+    <div class="column project left-column">
+      <h3>My Own Website </h3><br>
+      <h5 class="project1">About this project</h5>
+      <p>In this project, I created my own website using Node.js and Express and deployed it on Heroku. Node Js is the 
+        runtime environment for running JavaScript on standalone machines and browser. Express, is a backend web application 
+        framework for Node.js and offers a lot of tools which make writting node apps more easier. For the frontend I used CSS and Bootstrap, 
+        a flexible and powerful frontend framework.
+        
+
+    </p><br>
+
+    <a class=""  href="https://github.com/RozWhite/personalwebsite1" target="_blank" rel="noopener" title="Go to Github"> 
+      View the source code of the project</a>
+    </div>
+    <div class="column right-column">
+<img class="project-img" src="/Assets/images/web.png" alt="project-img">
+    </div>
+  </div>
+  </div>
+</section>
+
+
+<%- include partials/bottomNav.ejs %>
+<%- include partials/footer.ejs %>
